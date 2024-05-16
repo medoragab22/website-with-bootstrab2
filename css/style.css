@@ -1,0 +1,600 @@
+*{
+    margin: 0;
+    padding: 0;}
+    .carousel{
+      position: absolute;
+    }
+    .carousel-inner{
+      height:680px;
+    }
+    body{
+      height: 5000px;
+    }
+    .image{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    .infor{
+      position: relative;
+      z-index: 5;
+      margin-top: 500px;
+      width: 40%;
+      margin: auto;
+      margin-top: 500px;
+      text-align: center;
+      opacity: 0,4;
+      background-color: rgb(205, 248, 233);
+    }
+  
+ .div-info3 h1{  
+    color: rgb(233, 121, 121);
+ }
+ .div-info3 p{ color: rgb(255, 255, 255)}
+ .btn-light{  width: 170px ;  MARGIN-bottom: 4px; margin-left: 15px;}
+  .div-info3-1{
+    background-color: rgb(0, 0, 0);
+     height: 150px;
+   
+     
+  }
+ 
+  .PPPPP{
+    background-color: rgb(22, 22, 22);
+    margin-top: -8px;
+  }
+  .dir{
+    display: block;
+  }
+  .info-room{
+    background-color: rgb(30, 31, 49);
+  }
+ 
+   .icon1{
+    font-size: 35px;
+   position: relative;
+   position: fixed;
+  
+    z-index: 15;
+    display: block;
+    margin-top: -450px;
+    margin-bottom: 250px;
+    margin-left: 1430px;
+   }
+   .icon1:hover i{
+      color: rgb(93, 93, 235);
+   }
+   .design-home{
+    width: 100%;
+    height: 180vh;
+    background-color: #fff; 
+
+  }
+   
+ 
+ 
+ .mmm-container{
+  margin: auto;
+  width: 85%;
+ }
+ .mmm-cotant{
+  overflow: auto;
+ }
+ .la-container{
+  margin: auto;
+  width: 85%;
+ }
+ .la-contant{
+  overflow: auto;
+ }
+ .con{
+  margin: auto;
+  width: 85%;
+ }
+ .contant55{
+  overflow: auto;
+ }
+  .design-iteam1{
+    float: left;
+    width:25%;
+    background-color: #fff;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    height: 383px;
+   margin-top: 40px;
+   margin-left: 20px;
+   border: 2px solid black;
+  }
+   
+  .iteam4{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+  }
+  .iteam5{
+    margin-left: 150px;
+   margin-top: 30px;
+  }
+  .btn22{
+  display: block;
+   margin-top:15px;
+   margin-left: 660px;
+   background-color: green;
+   color: #fff;
+   width: 150px;
+   height: 45px;
+   font-size: 20px;
+  }
+  .btn222{
+    display: block;
+     margin-top:15px;
+     margin-left: 660px;
+     background-color: rgb(20, 195, 218);
+     color: #fff;
+     width: 150px;
+     height: 45px;
+     font-size: 30px;
+    }
+  .some-info{
+   margin-top: 30px;
+    margin-bottom:100px;
+    width: 100%;
+    height: 150px;
+  }
+  .itm{
+    margin-left: 50px;
+  }
+  .design-iteam1::after{
+    position: absolute;
+   content: "";
+   width: 0;
+   height: 0;
+   top: 0;
+   left: 0;
+   background-color: #647dd5;
+   transition: 4s;
+   opacity: 0;
+   }
+   .design-iteam1:hover::after{
+       width: 100%;
+       height: 100%;
+       opacity: 0.2;
+       transition: 4s;
+       background-color: #647dd5;
+   z-index: 4;
+   }
+ 
+  .scrolling1{
+    width: 100%;
+    height: 40vh ;
+    background-image: url(../images/download.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .scrolling2{
+    margin-top: 20px;
+    width: 100%;
+    height: 40vh ;
+    background-image: url(../images/download\ \(1\).jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .m4{
+   
+   transform-style:preserve-3d;
+   transition: transform 0.5s;
+ 
+}
+ 
+.m4:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+ }
+ .im{
+  padding-top: 50px;
+  padding-left: -20px;
+ }
+ .join-iteam{
+  float: left;
+  width:20%;
+  margin: auto;
+  height: 260px;
+ margin-top:20px;
+ margin-left: 50px;
+ border: 2px solid black;
+ }
+ .ic{
+  text-shadow: 2px 2px 4px #000000;
+ }
+ .last-iteam{
+  float: left;
+  width:28%;
+  margin: auto;
+  display: inline;
+  height: 400px;
+ margin-top: 5px;
+ margin-left: 20px;
+  
+ }
+  
+ 
+ 
+ .cccc{
+  margin: 0 20px;
+  margin-top: 40px;
+ }
+ .mmm-container{
+    margin: auto;
+    width: 85%;
+   }
+ .contant-1263{
+  overflow: auto;
+ }
+ .copy{
+  border-top:4px solid #000000;
+  border-bottom:4px solid #000000;
+  margin-top: -20px;
+ }
+ .pp{
+  padding-top: -50px;
+ }
+ .imgoo img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+.last-iteam {
+  margin-bottom: 5px;
+}
+.lastt-info {
+  padding: 20px 0;
+  background-color: #007bff;
+  color: white;
+}
+.imgoo {
+  border-bottom:2px solid #000000;
+  border-top:2px solid #000000;
+}
+/*/***\*/
+.podcast-card {
+      display: flex;
+      flex-direction:column;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      margin: 20px 0;
+    }
+    .podcast-image-container {
+      flex: 0 0 40%;
+      max-width: 100%;
+      overflow: hidden;
+      position: relative;
+    }  
+    .podcast-image {
+      max-height: 200px;
+      margin-top: 5px;
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+      transform: skewy(-5deg);
+      object-fit: cover
+    }
+    .podcast-content {
+      padding: 20px;
+      flex: 1;
+      background-color: #f8f9fa;
+    }
+    .podcast-meta {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .podcast-meta span {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+      color: #6c757d;
+    }
+    .podcast-meta i {
+      margin-right: 5px;
+    }
+    .podcast-buttons button {
+      margin-right: 10px;
+    }
+    @media (max-width:1400px){
+      .icon1{
+      
+        font-size: 35px;
+       position: relative;
+       position: fixed;
+      
+        z-index: 15;
+        display: block;
+        margin-top: -450px;
+        margin-bottom: 250px;
+        margin-left: 1300px;
+       
+    }
+    
+      .card{
+        width: 100%;
+      }
+      .div-info3{
+        width: 100%;
+      }
+      .info-room{
+        width: 100%;
+        border-radius: 10px;
+      }
+      .PPPPP textarea{
+        width: 100%;
+      }
+      .design-iteam1{
+        width: 40%;
+        height: 500px;
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 50px;
+        border: 0;
+
+      }
+      .design-home{
+        width: 100%;
+        height: 275vh;
+        background-color: #fff; 
+    
+      }
+      .last-iteam {
+        width: 80%;
+      }
+      .join-iteam{
+        width: 40%;
+      }
+      .m4{
+        height: 800px;
+      }
+    } 
+    @media (max-width:1200px){
+      .icon1{
+      
+        font-size: 35px;
+       position: relative;
+       position: fixed;
+      
+        z-index: 15;
+        display: block;
+        margin-top: -450px;
+        margin-bottom: 250px;
+        margin-left: 1120px;
+       
+    }
+      .card{
+        width: 100%;
+      }
+      .div-info3{
+        width: 100%;
+      }
+      .info-room{
+        width: 100%;
+        border-radius: 10px;
+      }
+      .PPPPP textarea{
+        width: 100%;
+      }
+      .design-iteam1{
+        width: 40%;
+        height: 500px;
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 50px;
+        border: 0;
+
+      }
+      .design-home{
+        width: 100%;
+        height: 275vh;
+        background-color: #fff; 
+    
+      }
+      .last-iteam {
+        width: 80%;
+      }
+      .join-iteam{
+        width: 40%;
+      }
+      .m4{
+        height: 800px;
+      }
+    } 
+    @media (max-width:992px){
+      .icon1{
+      
+        font-size: 35px;
+       position: relative;
+       position: fixed;
+      
+        z-index: 15;
+        display: block;
+        margin-top: -450px;
+        margin-bottom: 250px;
+        margin-left: 930px;
+       
+    }
+      .card{
+        width: 100%;
+      }
+      .div-info3{
+        width: 100%;
+      }
+      .info-room{
+        width: 100%;
+        border-radius: 10px;
+      }
+      .PPPPP textarea{
+        width: 100%;
+      }
+      .design-iteam1{
+        width: 70%;
+        height: 500px;
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 50px;
+        border: 0;
+
+      }
+      .design-home{
+        width: 100%;
+        height: 555vh;
+        background-color: #fff; 
+    
+      }
+      .last-iteam {
+        width: 80%;
+      }
+      .join-iteam{
+        width: 80%;
+      }
+      .m4{
+        height: 800px;
+      }
+    } 
+    @media (max-width:768px){
+      .icon1{
+      
+        font-size: 35px;
+       position: relative;
+       position: fixed;
+      
+        z-index: 15;
+        display: block;
+        margin-top: -450px;
+        margin-bottom: 250px;
+        margin-left: 720px;
+       
+    }
+
+    
+    .iiimmm{
+      width: 50px;
+      height: 20px;
+    margin-left: -10px;
+
+    }
+     .dropdown-toggle{
+      font-size: 10px;
+      width: 40px;
+    }
+    .infor{
+      position: relative;
+      z-index: 5;
+ 
+      width: 80%;
+      margin: auto;
+      margin-top: 350px;
+      text-align: center;
+      opacity: 0,4;
+      background-color: rgb(205, 248, 233);
+    }
+    
+      .card{
+        width: 100%;
+      }
+      .div-info3{
+        width: 100%;
+      }
+      .info-room{
+        width: 100%;
+        border-radius: 10px;
+      }
+      .PPPPP textarea{
+        width: 100%;
+      }
+      .design-iteam1{
+        width: 70%;
+        height: 410px;
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 50px;
+        border: 0;
+
+      }
+      .design-home{
+        width: 100%;
+        height: 453vh;
+        background-color: #fff; 
+    
+      }
+      .last-iteam {
+        width: 80%;
+      }
+      .join-iteam{
+        width: 80%;
+      }
+    }  
+    @media (max-width:567px){
+    
+      .icon1{
+      
+          font-size: 35px;
+         position: relative;
+         position: fixed;
+        
+          z-index: 15;
+          display: block;
+          margin-top: -450px;
+          margin-bottom: 250px;
+          margin-left: 480px;
+         
+      }
+      .infor{
+        position: relative;
+        z-index: 5;
+   
+        width: 90%;
+        margin: auto;
+        margin-top: 200px;
+        text-align: center;
+        opacity: 0,4;
+        background-color: rgb(205, 248, 233);
+      }
+        
+      .card{
+        width: 100%;
+      }
+      .div-info3{
+        width: 100%;
+      }
+      .info-room{
+        width: 100%;
+        border-radius: 10px;
+      }
+      .PPPPP textarea{
+        width: 100%;
+      }
+      .design-iteam1{
+        width: 80%;
+        height: 400px;
+        margin: auto;
+        margin-top: 10px;
+        margin-left: 50px;
+        border: 0;
+
+      }
+      .design-home{
+        width: 100%;
+        height: 505vh;
+        background-color: #fff; 
+    
+      }
+      .last-iteam {
+        width: 80%;
+      }
+      .join-iteam{
+        width: 80%;
+      }
+      
+    }  
